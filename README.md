@@ -24,6 +24,15 @@ AWS_SECRET_ACCESS_KEY=hOFE6NnaPqdAa...
 AWS_ACCESS_KEY_ID=ASIAYF...
 ```
 
+### Installation
+
+To install on MacOS, run the following commands.
+
+```
+$ brew tap im2nguyen/envo
+$ brew install envo
+```
+
 ### Basic usage
 
 `envo` has two main flags, `-maskMethod` (`-m`) and `-truncLength` (`-t`). 
