@@ -1,6 +1,6 @@
 ## envo - Mask your environment variables
 
-`envo` is a CLI tool that masks/obscurates your environment variables.
+`envo` (environment variable obscuration) is a CLI tool that masks/obscurates your environment variables.
 
 ### Use case
 
