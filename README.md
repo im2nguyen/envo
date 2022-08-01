@@ -24,6 +24,12 @@ AWS_SECRET_ACCESS_KEY=hOFE6NnaPqdAa...
 AWS_ACCESS_KEY_ID=ASIAYF...
 ```
 
+You can also create an alias for `env` in order to leverage `envo` for certain env-var patterns:
+
+```
+alias env="bash -c \". <(envo | egrep '(PRIVATE_KEY|TOKEN|SECRET)') && env\""
+```
+
 ### Installation
 
 To install on MacOS, run the following commands.
