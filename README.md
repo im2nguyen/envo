@@ -53,7 +53,7 @@ value length.
     USER=d...
     ```
 
-- Set `-maskMethod` to `random` to replace the environment variable value with 
+- Set `-maskMethod` or `-m` to `random` to replace the environment variable value with 
 random characters.
 
     ```
@@ -61,7 +61,7 @@ random characters.
     USER=me8
     ```
 
-- Set `-maskMethod` to a value that is neither `trunc` nor `random` to replace 
+- Set `-maskMethod` or `-m` to a value that is neither `trunc` nor `random` to replace 
 the environment variable value with the provided value.
 
     ```
@@ -74,7 +74,7 @@ the environment variable value with the provided value.
     USER=000
     ```
 
-- Set `-truncate` to a length to truncate the environment variable value. If the
+- Set `-truncLength` or `-t` to a length to truncate the environment variable value. If the
 specified length is greater than or equal to the length of the value, `envo` 
 will truncate the value to a third of its original length.
 
